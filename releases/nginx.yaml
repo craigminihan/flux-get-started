@@ -11,8 +11,4 @@ spec:
   chart:
     repository: https://charts.bitnami.com/bitnami
     name: nginx
-    version: 5.1.12
-  values:
-    image:
-      repository: bitnami/nginx
-      tag: 1.16.1
+    version: 5.2.0
