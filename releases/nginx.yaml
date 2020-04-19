@@ -1,0 +1,14 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: nginx
+  namespace: demo
+  annotations:
+    fluxcd.io/automated: "false"
+spec:
+  releaseName: nginx
+  chart:
+    repository: https://charts.bitnami.com/bitnami
+    name: mongodb
+    version: 1.17.10
