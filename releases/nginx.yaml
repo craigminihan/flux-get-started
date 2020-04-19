@@ -11,4 +11,4 @@ spec:
   chart:
     repository: https://charts.bitnami.com/bitnami
     name: mongodb
-    version: 1.17.10
+    version: 5.2.2
