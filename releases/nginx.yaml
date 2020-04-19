@@ -5,7 +5,7 @@ metadata:
   name: nginx
   namespace: demo
   annotations:
-    fluxcd.io/automated: "false"
+    fluxcd.io/automated: "true"
 spec:
   releaseName: nginx
   chart:
