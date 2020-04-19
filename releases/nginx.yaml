@@ -10,5 +10,5 @@ spec:
   releaseName: nginx
   chart:
     repository: https://charts.bitnami.com/bitnami
-    name: mongodb
+    name: nginx
     version: 5.2.2
