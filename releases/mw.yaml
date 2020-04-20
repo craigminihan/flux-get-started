@@ -1,0 +1,14 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: mw
+  namespace: demo
+  annotations:
+    fluxcd.io/automated: "false"
+spec:
+  releaseName: mw
+  chart:
+    repository: https://charts.avondata.cloud
+    name: foresight-microservices
+    version: 21.0.54
